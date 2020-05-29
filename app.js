@@ -42,7 +42,7 @@ app.use((error,req,res,next)=>{
 //     res.render('pages/errors/404',{flashMessage : {} } )
 // })
 
-const PORT = 3000
+const PORT =process.env.PORT || 3000
 
 mongoose.connect(MONGODB_URI , {useNewUrlParser: true, useUnifiedTopology: true}) //jate console kono error nah ase
 .then(
