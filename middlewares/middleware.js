@@ -23,8 +23,8 @@ const middleware=[
     express.json(),
     express.static('public'),
     session({
-        
-        secret : config.get('secret') ,
+        secret : 'SECRET' ,
+        //secret : config.get('secret') ,
         resave : false,
         saveUninitialized : false,
         store : store
