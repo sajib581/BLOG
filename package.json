@@ -30,7 +30,7 @@
     "reading-time": "^1.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.4"
   },
   "engines": {
     "node": "12.16.1"
