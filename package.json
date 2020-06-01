@@ -10,8 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "-": "0.0.1",
+  "dependencies": {    
     "bcrypt": "^4.0.1",
     "chalk": "^4.0.0",
     "cheerio": "^1.0.0-rc.3",
@@ -33,6 +32,6 @@
     "save": "^2.4.0"
   },
   "engines": {
-    "node": ">=12"
+    "node": "12.16.1"
   }
 }
