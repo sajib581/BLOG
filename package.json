@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {    
+  "dependencies": {
     "bcrypt": "^4.0.1",
     "chalk": "^4.0.0",
     "cheerio": "^1.0.0-rc.3",
