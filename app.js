@@ -10,7 +10,7 @@ const setMiddleware = require('./middlewares/middleware')
 //Import Routes
 const setRoutes = require('./routes/routes')
 
-const MONGODB_URI =config.get('my-db') ;  
+//const MONGODB_URI =config.get('my-db') ; tempraray closed 
 
 const app = express() 
 
@@ -43,8 +43,9 @@ app.use((error,req,res,next)=>{
 // })
 
 const PORT =process.env.PORT || 3000
+MONGODB_URII = 'mongodb+srv://dbs1:sajib121@cluster0-gcvvh.mongodb.net/test'
 
-mongoose.connect(MONGODB_URI , {useNewUrlParser: true, useUnifiedTopology: true}) //jate console kono error nah ase
+mongoose.connect(MONGODB_URII , {useNewUrlParser: true, useUnifiedTopology: true}) //jate console kono error nah ase
 .then(
     app.listen(PORT,()=>{
         console.log(chalk.green('Database Connected'));
