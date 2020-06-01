@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch" : "nodemon db"
+    "start": "node app.js",
+    "dev": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -29,5 +30,8 @@
     "nodemon": "^2.0.4",
     "reading-time": "^1.2.0",
     "save": "^2.4.0"
+  },
+  "engines": {
+    "node": "12.16.1"
   }
 }
